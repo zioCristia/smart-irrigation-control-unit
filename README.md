@@ -4,4 +4,8 @@ This board should be attached to the [Esp energy monitor](https://github.com/zio
 
 The board's design allows it to be inserted into the rail of the home's breaker box by printing a 3D component.
 
+# Pcb
+![alt text](/images/schematics.png)
+![alt text](/images/pcb.png)
+
 ### The rest will come soon
