@@ -5,7 +5,12 @@ This board should be attached to the [Esp energy monitor](https://github.com/zio
 The board's design allows it to be inserted into the rail of the home's breaker box by printing a 3D component.
 
 # Pcb
+You can find the whole eagle project in [this folder](./irrigation_control_unit).
 ![alt text](/images/schematics.png)
 ![alt text](/images/pcb.png)
 
 ### The rest will come soon
+
+# Contribution
+
+Feel free to report any bugs or feature requests.
