@@ -2,6 +2,8 @@
 Expansion board for garden irrigation, with 7 differents triacs controlling solenoid valvs and one relay for the water pump.
 This board should be attached to the [Esp energy monitor](https://github.com/zioCristia/esp-energy-monitor-v2) board.
 
+You can watch an italian video tutorial throught [this link](https://youtu.be/GwXOpy07zA8).
+
 Should one not need the power monitor, the board could be constructed by eliminating all components related to current measurement, thus leaving only the power supply and esp32.
 
 The board's design allows it to be inserted into the rail of the home's breaker box by printing a 3D component.
@@ -23,6 +25,9 @@ Similarly, you have the option of controlling 7 irrigation solenoid valves, but 
 In this way, the price can vary (in particular reduce) drastically.
 
 A complete list of all the components with a link to aliexpress could be found [here](https://docs.google.com/spreadsheets/d/1A_0oTcwCHzUrwPyKvZikXxDFFEQyVeJslgch1jBqpY8/edit?usp=sharing). The price is very indicative because if you already have components such as resistors or capacitors, it is drastically reduced.
+
+### Additional hardware
+For the installation of the board in the house panel directly into standard DIN rails, you can print two clips that you can find on [thingiverse](https://www.thingiverse.com/thing:6103419).
 
 # Software
 Esp32 was programmed using EspHome to enable its integration with [Home Assistant](https://www.home-assistant.io). To control solenoid valves, as well as the water pump and gate, simply add the following lines in the EspHome generic code for an esp32.
